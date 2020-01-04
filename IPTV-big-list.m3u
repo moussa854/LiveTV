@@ -1,10 +1,6 @@
 #EXTM3U
 #EXTINF:0 tvg-name="Newsmax TV" tvg-language="English" tvg-country="CA" tvg-id="Newsmax-TV" tvg-logo="https://i.imgur.com/Twkovic.gif" group-title="Entertainment",Newsmax TV
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-
-#EXTINF:0 tvg-name="LNC" tvg-language="English" tvg-country="CA" tvg-id="LNC" tvg-logo="https://livenewschat.eu/wp-content/uploads/2014/08/breaking-news-LNC.jpg" group-title="Entertainment",LNC
-https://iguana.cdn.livenewschat.eu/hls/cbc_live/index.m3u8
-
 #EXTINF:0 tvg-logo="https://i.imgur.com/ODIWC6n.jpg" tvg-name="Infowars1" tvg-id="Infowars1" group-title="News",Infowars Live1
 https://infostream.secure.footprint.net/hls-live/infostream-infostream/_definst_/master.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/ODIWC6n.jpg" tvg-name="Infowars" tvg-id="Infowars" group-title="News",Infowars Live 2
