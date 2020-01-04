@@ -26,6 +26,9 @@ https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EU
 #EXTINF:0 tvg-language="English" tvg-country="US" tvg-logo="https://i.imgur.com/3zfCuGm.png" tvg-name="BLOOMBERG" tvg-id="BLOOMBERG" group-title="News",EN: BLOOMBERG AUSTRALIA
 https://liveprodapnortheast.akamaized.net/btv/desktop/aus_live.m3u8
 
+#EXTINF:0 tvg-id="Sky-News" tvg-name="Sky News" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/91/SKY_TG24.png" group-title="News",Sky News (UK)
+http://d59pscns5ugc8.cloudfront.net/cdhls/skynewsamericas/1013/live/06.m3u8
+
 #EXTINF:0 tvg-logo="https://images.telequebec.tv/lafabriqueculturelle/partners/2/w150_h150.jpg",Canal Savoir (fr)
 https://stream.canalsavoir.tv/livestream/stream.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/DVjMg8q.png",France 24 | Youtube
@@ -153,11 +156,8 @@ https://bcsecurelivehls-i.akamaihd.net/hls/live/680602/1242843915001_1/master.m3
 #EXTINF:0 tvg-name="Le Journal" tvg-language="French" tvg-country="FR" tvg-id="Le Journal" tvg-logo="https://i.imgur.com/2b9926d.png" group-title="News",Le Journal (News) (FR) (French)
 http://tvl-live.l3.freecaster.net/live/actv/actv-audio_track=128000-video=1600000.m3u8
 #EXTINF:0 tvg-name="La Chaine Normande" tvg-language="French" group-title="Entertainment" tvg-country="FR" tvg-id="chaine-normande" tvg-logo="https://i.imgur.com/Ai8rawc.png",La Chaine Normande
-https://live.lachainenormande.fr:80/live/lcn/livestream/playlist.m3u8
-#EXTINF:0 tvg-name="La Chaine Normande" tvg-language="French" group-title="Entertainment" tvg-country="FR" tvg-id="chaine-normande-rtmp" tvg-logo="https://i.imgur.com/Ai8rawc.png",La Chaine Normande (RTMP)
-rtmp://live.lachainenormande.fr:80/live/lcn/livestream
-#EXTINF:0 tvg-name="Vox Africa" tvg-id="voxafrica" tvg-language="French" tvg-country="CF" tvg-logo="https://i.imgur.com/hI2vgmd.png" group-title="News",Vox Africa
-https://edge-01.playmedia-cdn.net/origin02/amlst:voxafrica/master.m3u8?dar=ws&t=18ddf1b11ff0fbb27659a265b39d112682c0d61962b62eacd7f69f98b392579cedb609bb3033b737c4d6cc309dbbbb0e9f749d06d8e7cfc0f0808412a57db77164472eb3afa42db4393ef9e7d10c73d893753644a95799b21d5b680baae765344ef5c8bd75ca14d1b7247664fe862ecf3acc5a18c89c9d457a32f75cbbd5267e34ca45860d90a7de013d8b35d8636b44
+https://lcn.hdr-tv.com/live/lcn/ngrp:lcn_Wifi/manifest.mpd
+
 #EXTINF:0 tvg-name="RTI 1" tvg-id="RTI1" tvg-language="French" tvg-country="CF" tvg-logo="https://i.imgur.com/HwZMzDZ.png" group-title="News",RTI 1
 https://www.enovativecdn.com:4433/rticdn/smil:rti1.smil/master.m3u8
 #EXTINF:0 tvg-name="RTI 2" tvg-id="RTI2" tvg-language="French" tvg-country="CF" tvg-logo="https://i.imgur.com/qMYL669.png" group-title="News",RTI 2
@@ -301,16 +301,6 @@ https://mv2.tvfrancophonie.org/live/Stream1/media_b776739_w671289549.m3u8
 https://5421175365ea3.streamlock.net/live/smil:switch.smil/playlist.m3u8
 #EXTINF:0 tvg-name="TV7Bordeaux.fr" tvg-id="TV7Bordeaux.fr" tvg-language="French" tvg-logo="https://i.imgur.com/VQYe3Qfm.jpg" group-title="France",FR: TV7
 https://62.210.204.108:1935/livtv7vo/myStream.smil/chunklist_w1048374224_b828000_slfra.m3u8
-#EXTINF:0 tvg-id="10" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/3c/FloridaChannel.png",The Florida Channel (rtmp)
-rtmp://webcasting.thefloridachannel.org/live/tvweb1
-#EXTINF:0 tvg-id="11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4d/UCTV.PNG",University of California Television (rtmp)
-rtmp://ucsdtv-wowza.ucsd.edu:1935/live/live_800
-#EXTINF:0 tvg-name="Insight HD" tvg-language="English" tvg-country="AU" tvg-id="Insight HD" tvg-logo=" https://i.imgur.com/i1rZYri.png" group-title="Entertainment",Insight HD
-https://ooyalahd2-f.akamaihd.net/i/intv02_delivery@346464/master.m3u8
-#EXTINF:0 tvg-id="Sky-News" tvg-name="Sky News" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/91/SKY_TG24.png" group-title="News",Sky News (UK)
-http://d59pscns5ugc8.cloudfront.net/cdhls/skynewsamericas/1013/live/06.m3u8
-#EXTINF:0 tvg-id="7" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b0/Peace_TV_logo_2015.jpeg",Peace TV Asia (rtmp)
-rtmp://peace.fms.visionip.tv/live/b2b-peace_asia-live-25f-4x3-sdh_1
 
 #EXTINF:0 tvg-name="Miami TV" tvg-language="English" tvg-country="US" tvg-id="Miami-TV" tvg-logo="https://i.imgur.com/KYZZDPP.png" group-title="News",Miami TV
 https://59ec5453559f0.streamlock.net/miamitv/smil:miamitvROKU/chunklist_w30480388_b2592000.m3u8
@@ -381,8 +371,6 @@ https://media.netd.com.tr/S1/HLS_LIVE/cnn_turk/1000/prog_index.m3u8
 http://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMC-TV/.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="French" tvg-logo="https://i.imgur.com/ekRMtra.png" group-title="",Radio Contact
 http://contact-lh.akamaihd.net/i/CONTACT_1@321283/index_400_av-p.m3u8?sd=10&rebase=on
-#EXTINF:0,Baden TV
-rtmp://badentv-stream2.siebnich.info/rtplive/vlc.sdp
 #EXTINF:0 tvg-logo="https://fernsehen-live-stream.com/uploads/posts/2016-03/1458403062_city_tv.jpg" group-title="Music",EN: CITY
 https://nodeb.gocaster.net:1935/CGL/_definst_/mp4:TODAYFM_TEST2/chunklist_w377062489.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/ru/5/5b/Hittv_logo_2014.jpg" group-title="Music", EN: MyHit
@@ -440,16 +428,10 @@ https://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/master.m3u8
 https://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/800kStream.m3u8
 #EXTINF:0 #EXTINF:0 tvg-name="republic world" tvg-language="English" tvg-country="SA" tvg-id="republicworld" tvg-logo="https://i.imgur.com/zj7j5Bk.png" group-title="Documentary",Republic World
 https://repblicwld.s.llnwi.net/e1/hlslive/republic.m3u8?__nn__=5470370182001&hdnea=st=1539909000~exp=1539912600~acl=/e1/hlslive/*~hmac=aca46d743a6d842d0dbfddbda7ec242859b6d31312c829cab79b0a4fe2f7429e&chname=republic&pub=322a4753-2522-4713-a949-670998065409&ctype=0&acsurl=repblicwld.s.llnwi.net%2Fe4
-#EXTINF:0,Istweb TV (HQ) rtmp
-rtmp://wowza.istweb.tv:1935/webtv/webtv_wowza1
+
 #EXTINF:0 tvg-logo="https://i.imgur.com/QIEChPzm.jpg" tvg-language="French" group-title="News",FR: La Tele
 https://live.creacast.com/grandlilletv/smil:grandlilletv.smil/chunklist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/aezBYUu.jpg" tvg-language="French" group-title="France",FR: Grand Lille
-rtmp://str81.creacast.com/grandlilletv/high
-#EXTINF:0 tvg-logo="https://i.imgur.com/6rpPfBq.jpg" tvg-language="French" group-title="France",FR: TELEVESDRE
-https://vm109.imust.org:1935/live/televesdre-live/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/Kfrq0vum.jpg" tvg-language="French" group-title="France",FR: TV Lux
-rtmp://wowza.tvlux.imust.org/live/tvlux-live
+
 #EXTINF:0 tvg-logo="https://i.imgur.com/S6JsYEs.jpg" tvg-name="CNews" tvg-language="French" tvg-id="CNews" group-title="News",iTele CNews **
 https://stream-02.dc3.dailymotion.com/33/dm/3/x3b68jn/live-2.m3u8
 #EXTINF:0 tvg-logo="https://i.imgur.com/lMaRRrs.png" group-title="News",IT: EURONEWS
@@ -512,98 +494,6 @@ https://str81.creacast.com:80/iltv/high/playlist.m3u8
 https://iphone.telemadrid.es.edgesuite.net/telemadridsat_iphone.m3u8
 #EXTINF:0,IB3
 https://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/IB3.m3u8
-#EXTINF:0,El Correo TV
-https://cls.elitehd-audiovisuales.com/luztv/livestream/playlist.m3u8
-#EXTINF:0,ALB uk
-rtmp://188.138.17.8:1935/albuk/albuk.stream
-#EXTINF:0,ALB uk music
-rtmp://188.138.17.8:1935/albuk/albmus.stream
-#EXTINF:0,EALB uk+
-rtmp://188.138.17.8:1935/albuk/albuk+.stream
-#EXTINF:0,VIZION+
-rtmp://slive.vizionplus.tv:1935/live/livestream1
-#EXTINF:0,Baden TV
-rtmp://badentv-stream2.siebnich.info/rtplive/vlc.sdp
-#EXTINF:0,Canal Do Boi Tv
-rtmp://srvvenus.canaldoboi.com/livecb/livestream
-#EXTINF:0,Canal-i
-rtmp://edge.wms28.lorini.net/canal-i/canal-i
-#EXTINF:0,Canal4
-rtmp://216.24.196.40:1935/live/canal4
-#EXTINF:0,Canale 46
-rtmp://vs2.streamcaster.net/test_live/canale46
-#EXTINF:0,CNA SAT TV
-rtmp://str81.creacast.com:80/cna/live.sdp
-#EXTINF:0,Conexaobr Tv
-rtmp://srvvenus.canaldoboi.com/livecx/livestream
-#EXTINF:0,DAF TV
-rtmp://fms.daf.tmt.de:1935/live/dafstream100
-#EXTINF:0,Elazig Canal 23
-rtmp://yayin.tvdunyasi.tv:1935/live/elazig_kanale
-#EXTINF:0,Elbekanal Schönebeck
-rtmp://62.113.210.250/medienasa-live/elbe_high
-#EXTINF:0,Elektrika TV
-rtmp://rtmp.elektrika.cz/live/myStream.sdp
-#EXTINF:0,FIX TV HD
-rtmp://video.fixhd.tv:1935/fix/hd.stream
-#EXTINF:0,Gaziantep Olay TV
-rtmp://stream.taksimbilisim.com/olaytv/bant1
-#EXTINF:0,Halle TV
-rtmp://62.113.210.250/medienasa-live/tvhalle_high
-#EXTINF:0,HKS
-rtmp://live.hkstv.hk.lxdns.com/live/hks
-#EXTINF:0,Huesca TV
-rtmp://streaming2.radiohuesca.com/live/huescatv
-#EXTINF:0,Istweb TV (HQ)
-rtmp://wowza.istweb.tv:1935/webtv/webtv_wowza1
-#EXTINF:0,Istweb TV (MQ)
-rtmp://wowza.istweb.tv:1935/webtv/webtv_wowza2
-#EXTINF:0,Jug TV
-rtmp://84.20.77.50/live/livestream1
-#EXTINF:0,Kanal 3
-rtmp://stream.taksimbilisim.com/kanal3/bant1
-#EXTINF:0,Kanal E
-rtmp://yayin.tvdunyasi.tv/live/elazig_kanale
-#EXTINF:0 tvg-name="LifeStyle TV" tvg-language="English" tvg-country="US" tvg-id="KLifeStyle TV" tvg-logo="https://i.imgur.com/RUEvrrQ.png" group-title="LifeStyle",LifeStyle TV
-rtmp://stream1.lifestyletv.se/live/livestream2
-#EXTINF:0,Light Channel TV 1
-rtmp://streamer1.streamhost.org/salive/hungarian
-#EXTINF:0,Lunaa Sport
-rtmp://vs2.streamcaster.net/test_live/lunasport
-#EXTINF:0,MDI TV
-rtmp://89.33.78.174:1935/live/livestream
-#EXTINF:0,MIX TV
-rtmp://tv-mix.ru/live/Stream1
-#EXTINF:0,Montecarlo Music
-rtmp://fms.105.net/live/rmc1
-#EXTINF:0,myjava
-rtmp://s1.media-planet.sk:80/live/myjava1
-#EXTINF:0,OK Dessau
-rtmp://62.113.210.250/medienasa-live/ok-dessau_high
-#EXTINF:0,OK Magdeburg
-rtmp://62.113.210.250/medienasa-live/ok-magdeburg_high
-#EXTINF:0,OK Merseburg
-rtmp://62.113.210.250/medienasa-live/ok-merseburg_high
-#EXTINF:0,OK Salzwedel
-rtmp://62.113.210.250/medienasa-live/ok-salzwedel_high
-#EXTINF:0,OK Stendal
-rtmp://62.113.210.250/medienasa-live/ok-stendal_high
-#EXTINF:0,OK Wernigerode
-rtmp://62.113.210.250/medienasa-live/ok-wernigerode_high
-#EXTINF:0,OK Wettin
-rtmp://62.113.210.250/medienasa-live/ok-wettin_high
-#EXTINF:0,Omroep Zeeland TV
-rtmp://livestream.zeelandnet.nl/live/omroepzeeland_tv_200k.sdp
-#EXTINF:0,PAX TV HD
-rtmp://124.139.232.61:1935/live/livestream
-#EXTINF:0,Peace Tv Asia
-rtmp://peace.fms.visionip.tv/live/b2b-peace_asia-live-25f-4x3-sdh_1
-#EXTINF:0,CNA
-rtmp://str81.creacast.com:80/cna/live.sdp
-#EXTINF:0,Djing HD
-https://cdn.djing.com/tv/05.m3u8
-#EXTINF:0,NRJ TV
-rtmp://rtmp.infomaniak.ch:1935/livecast/energytv
 #EXTINF:0,Télé Bielinguech
 https://rtmp.infomaniak.ch/livecast/telebielinguech/PAZ.m3u8
 #EXTINF:0,No title (es)
@@ -614,13 +504,7 @@ https://indiatvnews-lh.akamaihd.net/i/ITV_1@199237//master.m3u8
 https://bglive-a.bitgravity.com/ndtv/247hi/live/native
 #EXTINF:0,NDTV HD (Flash Only?)
 https://ndtv.live.cdn.bitgravity.com/ndtv/live/ndtv247live512
-#EXTINF:-1 group-title="News",News Nation TV India 
-rtmp://54.255.176.172/live/newsnation_720p
 ========= TO UPDATE ========= 
-#EXTINF:0,La Tele
-https://rtmp.infomaniak.ch/livecast/latele/playlist.m3u8
-#EXTINF:0 tvg-name="Rouge TV" tvg-id="Rouge-TV" tvg-language="French" tvg-country="FR" tvg-logo="https://i.imgur.com/TK0fr9O.jpg",Rouge TV
-https://rtmp.infomaniak.ch/livecast/rougetv/playlist.m3u8
 #EXTM3U
 #EXTINF:0,NBC Sports Golf HD
 http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/2596k/prog.m3u8
