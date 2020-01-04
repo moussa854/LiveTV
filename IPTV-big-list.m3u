@@ -51,7 +51,7 @@ http://144.217.253.140/Canalj/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="Notele" tvg-name="Notele" tvg-language="French" tvg-country="FR" tvg-logo="https://i.imgur.com/8CWBmcN.png" group-title="",Notele
 https://streaming01.divercom.be/notele_live/_definst_/direct.stream/chunklist_w1424854023.m3u8
 #EXTINF:-1 tvg-id="Notele2" tvg-name="Notele 2" tvg-language="French" tvg-country="FR" tvg-logo="https://i.imgur.com/8CWBmcN.png" group-title="",Notele
-https://streaming01.divercom.be/notele_live/_definst_/direct.stream/chunklist_w798871553.m3u8?fluxustv.m3u8
+https://streaming01.divercom.be/notele_live/_definst_/direct.stream/chunklist_w798871553.m3u8
 #EXTINF:0 tvg-name="Aerostar TV" tvg-id="AerostarTV" tvg-logo="https://i.imgur.com/3q6OFhO.png" group-title="Family",Aerostar TV
 https://163.172.23.65:1935/aerostar/ngrp:test_all/chunklist_w479500417_b392000.m3u8
 #EXTINF:0 tvg-name="KTVU 2" tvg-language="English" tvg-country="US" tvg-id="KTVU 2" tvg-logo="https://i.imgur.com/w7sFs6Y.png" group-title="News",KTVU 2 (News) (US) (English)
@@ -210,7 +210,7 @@ https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo123-contv/CDN/1280x720_
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="English" tvg-logo="https://i.imgur.com/f0FtDEI.png" group-title="",Court TV
 https://content.uplynk.com/channel/92c7be9fb47143a58683d202e321e571.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="English" tvg-logo="https://i.imgur.com/f0FtDEI.png" group-title="",Court TV
-https://content.uplynk.com/channel/92c7be9fb47143a58683d202e321e571.m3u8?fluxustv.m3u8
+https://content.uplynk.com/channel/92c7be9fb47143a58683d202e321e571.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="English" tvg-logo="https://i.imgur.com/vMMR55y.png" group-title="Lifestyle",DABL
 https://cbsta49f-dabl68fc.global.ssl.fastly.net/out/v1/dfecb53fbf434b6bbbfd91d8a2549381/manifest_21.m3u8
@@ -280,7 +280,10 @@ https://videocdn.mixer.com/hls/39385369-08bf0de15f6a5742b5d41f2c0410cfed_160p/in
 #EXTINF:0 tvg-logo="https://i.imgur.com/znQh4Dn.png" group-title="News",EN: TRT WORLD
 https://trtcanlitv-lh.akamaihd.net/i/TRTWORLD_1@321783/master.m3u8
 #EXTINF:0 tvg-name="i24 News" tvg-language="French" tvg-country="FR" tvg-id="i24_News" tvg-logo="https://i.imgur.com/tszdIwh.png" group-title="News",i24 News
-https://i24alive1-a.akamaihd.net/cc8266d36bb5469b8b4a3097497e06e6/eu-central-1/5377161796001/profile_0/chunklist_dvr.m3u8?fluxustv.m3u8
+https://i24alive1-a.akamaihd.net/cc8266d36bb5469b8b4a3097497e06e6/eu-central-1/5377161796001/profile_0/chunklist_dvr.m3u8
+
+#EXTINF:0 tvg-name="i24 News (en)" tvg-language="English" tvg-country="FR" tvg-id="i24_News_EN" tvg-logo="https://i.imgur.com/tszdIwh.png" group-title="News",i24 News (EN)
+https://i24alive1-a.akamaihd.net/cc8266d36bb5469b8b4a3097497e06e6/eu-central-1/5377161796001/profile_0/chunklist_dvr.m3u8
 
 #EXTINF:0 tvg-logo="https://i.imgur.com/jJ6qtGz.jpg" tvg-language="English" tvg-country="EN" group-title="News",EN: France 24
 http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
@@ -304,8 +307,8 @@ rtmp://webcasting.thefloridachannel.org/live/tvweb1
 rtmp://ucsdtv-wowza.ucsd.edu:1935/live/live_800
 #EXTINF:0 tvg-name="Insight HD" tvg-language="English" tvg-country="AU" tvg-id="Insight HD" tvg-logo=" https://i.imgur.com/i1rZYri.png" group-title="Entertainment",Insight HD
 https://ooyalahd2-f.akamaihd.net/i/intv02_delivery@346464/master.m3u8
-#EXTINF:0 tvg-id="Sky-TG24" tvg-name="Sky TG24" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/91/SKY_TG24.png" group-title="News",Sky TG24 (rtmp Spannish)
-rtmp://cp49989.live.edgefcs.net:1935/live/streamRM1@2564
+#EXTINF:0 tvg-id="Sky-News" tvg-name="Sky News" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/91/SKY_TG24.png" group-title="News",Sky News (UK)
+http://d59pscns5ugc8.cloudfront.net/cdhls/skynewsamericas/1013/live/06.m3u8
 #EXTINF:0 tvg-id="7" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b0/Peace_TV_logo_2015.jpeg",Peace TV Asia (rtmp)
 rtmp://peace.fms.visionip.tv/live/b2b-peace_asia-live-25f-4x3-sdh_1
 
@@ -386,18 +389,18 @@ https://nodeb.gocaster.net:1935/CGL/_definst_/mp4:TODAYFM_TEST2/chunklist_w37706
 https://1mstream.digicable.hu/hitmusic/hitmusic.m3u8
 // MUSIC VIDEO
 #EXTINF:-1 tvg-id="Trace Africa FR" tvg-name="Trace Africa FR" tvg-language="French" tvg-logo="https://i.imgur.com/SUhmboG.png" group-title="Music",Trace Africa
-https://d2ktlibtvvj8vp.cloudfront.net/trace_africa/6/prog_index.m3u8?fluxustv.m3u8
+https://d2ktlibtvvj8vp.cloudfront.net/trace_africa/6/prog_index.m3u8
 
 #EXTINF:-1 tvg-id="Trace Africa FR" tvg-name="Trace Africa FR" tvg-language="French" tvg-logo="https://i.imgur.com/SUhmboG.png" group-title="Music",Trace Africa
-https://d2ktlibtvvj8vp.cloudfront.net/trace_africa/6/prog_index.m3u8?fluxustv.m3u8
+https://d2ktlibtvvj8vp.cloudfront.net/trace_africa/6/prog_index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="French" tvg-logo="https://i.imgur.com/UOG2hKQ.png" group-title="Music",Trace Mziki
 http://d2ktlibtvvj8vp.cloudfront.net/trace_mizki/6/prog_index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="French" tvg-logo="https://i.imgur.com/BUQA8VB.png" group-title="Music",Trace Naija
-https://d2ktlibtvvj8vp.cloudfront.net/trace_naija/6/prog_index.m3u8?fluxustv.m3u8
+https://d2ktlibtvvj8vp.cloudfront.net/trace_naija/6/prog_index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="French" tvg-logo="https://i.imgur.com/vJZIrJ0.png" group-title="Music",Trace Toca
-https://d2ktlibtvvj8vp.cloudfront.net/trace_toca/6/prog_index.m3u8?fluxustv.m3u8
+https://d2ktlibtvvj8vp.cloudfront.net/trace_toca/6/prog_index.m3u8
 #EXTINF:-1 tvg-id="Trace Tropical FR" tvg-name="Trace Tropical FR" tvg-language="French" tvg-logo="https://i.imgur.com/MoqoYvL.png" group-title="Music",Trace Tropical
-https://d2ktlibtvvj8vp.cloudfront.net/trace_tropical/6/prog_index.m3u8?fluxustv.m3u8
+https://d2ktlibtvvj8vp.cloudfront.net/trace_tropical/6/prog_index.m3u8
 #EXTINF:-1 tvg-id="Trace Urban HD FR" tvg-name="Trace Urban HD FR" tvg-language="French" tvg-logo="https://i.imgur.com/qMYXsMH.png" group-title="Music",Trace Urban
 https://d2ktlibtvvj8vp.cloudfront.net/trace_urbaninter/5/prog_index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="French" tvg-logo="https://i.imgur.com/05RMwlR.png" group-title="",TV3V
@@ -481,83 +484,6 @@ https://imgedge.akamaized.net/amagi_hls_data_imgAAA2AA-edgesports/CDN/playlist.m
 
 #EXTINF:0 tvg-name="Pac 12 Arizona" tvg-language="English" tvg-country="US" tvg-id="Pac 12 Arizona" tvg-logo="https://i.imgur.com/QGYiK2D.png" group-title="Sports",Pac 12 Arizona HD
 https://xrxs.net/video/live-p12ariz-2328.m3u8
-
-#EXTINF:Eurosport 1 (ENG.)
-https://esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1800.m3u8
-#EXTINF:-1,Eurosport 1 HD DK
-https://dpme12hls-i.akamaiHD.net/hls/live/249637/dpme12_3/master.m3u8
-#EXTINF:-1,Eurosport 2 HD DK
-https://dnordichlslive09-i.akamaihd.net/hls/live/223865/ESDKHD/master.m3u8
-#EXTINF:-1,SPORTSNET WORLD (CA)
-https://91.212.150.56/live/241999.m3u8?
-#EXTINF:-1,Canal+Sport
-https://178.159.36.7/live/241993.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My80LzIwMTcgODo0MTozNiBBTSZoYXNoX3ZhbHVlPTJwM0FhR01NODV1ZnVJSFpYSGN2WkE9PSZ2YWxpZG1pbnV0ZXM9Mjg4MA==&wmsAuthSign2=d2l6OQ==wmsAuthSign=c2VydmVyX3RpbWU9My80LzIwMTcgODowOTo0NyBBTSZoYXNoX3ZhbHVlPXUyL2RPSmJwN2xpZ1RpaVhpNW5UOVE9PSZ2YWxpZG1pbnV0ZXM9Mjg4MA==&wmsAuthSign2=d2l6MTU=
-#EXTINF:0,TVC **
-https://77.92.76.135:1935/tvce/livestream/playlist.m3u8
-#EXTINF:0,BBC Arabia **
-https://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8
-#EXTINF:0,MTV AM ** 
-https://mtvam.ru/hlsam/playlist.m3u8
-#EXTINF:0,M6 Music ** 
-https://sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/m6_music_hits_hls_aes/m6_music_hits_hls_aes_856.m3u8
-#EXTINF:0 tvg-language="French" group-title="Family" tvg-country="FR" tvg-logo="https://i.imgur.com/roaexFI.png" , Gong 1
-https://ec.playmedia.fr/gong-base/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.thetopictrend.com/wp-content/uploads/2015/07/musica-C%C3%B3mo-nos-influye-en-la-Publicidad-el-Retail-y-las-Redes-Sociales-1024x1024.jpg" group-title="Family",City Radio TV
-https://nodeb.gocaster.net:1935/CGL/_definst_/mp4:TODAYFM_TEST2/live.m3u8?JoCaRoIPTV.m3u8
-#EXTINF:0,DREAM TV
-https://live.netd.com.tr/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8
-#EXTINF:0,DJING DANS
-https://cdn.djing.com/tv/d-05.m3u8
-#EXTINF:0,Heart TV
-https://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/master.m3u8
-#EXTINF:0  tvg-name="M2O" tvg-language="Italian" tvg-country="IT" tvg-id="M2O" tvg-logo="https://i.imgur.com/inKpyXY.gif" group-title="Music",M2O TV Music
-https://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-b.m3u8?sd=10&rebase=on
-#EXTINF:0 tvg-logo="https://lh5.googleusercontent.com/-E614RavSM5U/AAAAAAAAAAI/AAAAAAAAAHU/JfyYNYhmTUY/photo.jpg",Si TV
-https://hd.worldkast.com:1935/8436/8436/playlist.m3u8
-#EXTINF:0,Music
-https://tst.es.flash.glb.ipercast.net/tst.es-live/live/index.m3u8
-#EXTINF:0,Radio One
-https://server5.stweb.tv/radioone/live/playlist.m3u8
-#EXTINF:0,VOX Music TV **
-https://stream.smcloud.net/live/vox2/stream1/VOX Music TV.m3u8
-#EXTINF:0,Radio 105 TV **
-https://fms.105.net:1935/live/105Test1/playlist.m3u8
-#EXTINF:0,Radio Montecarlo TV **
-https://fms.105.net:1935/live/rmc1/playlist.m3u8
-#EXTINF:0,Virgin Tv **
-https://fms.105.net:1935/live/virgin1/playlist.m3u8
-#EXTINF:0,Radionorba Tv **
-https://85.17.80.132:80/radionorbatv/norbatv_source.stream/playlist.m3u8
-#EXTINF:0,Radio capital Tivů
-https://capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/master.m3u8
-#EXTINF:0,8 FM TV **
-https://live.youiptv.ch:1935/8FM/8FM_source/livestream.m3u8
-#EXTINF:0,CANALE RADIO 51 ** NO SOUND
-https://wms.shared.streamshow.it:80/canale51/canale51/playlist.m3u8
-#EXTINF:0,RADIO 538 TV
-https://538hls.lswcdn.triple-it.nl/content/538tv/538tv_0.m3u8
-#EXTINF:0,Capital TV 
-https://ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/index_656_av-p.m3u8?sd=10&rebase=on
-#EXTINF:0,VISUAL RADIO TV
-https://wms.shared.streamshow.it/visualradio/visualradio_mobile/playlist.m3u8
-#EXTINF:0 group-title="Music",M6 MUSIC **
-https://sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/m6_music_hits_hls_aes/m6_music_hits_hls_aes_856.m3u8
-#EXTINF:0,EuroSport
-https://esioslive6-i.akamaihd.net/hls/live/202892/AL_P_ESP1_FR_FRA/playlist.m3u8
-#EXTINF:0,Super sport 1
-https://81.7.13.162/hls/ss1/index.m3u8
-#EXTINF:0,Super sport 2
-https://81.7.13.162/hls/ss2/index.m3u8
-#EXTINF:0,Super sport 3
-https://81.7.13.162/hls/ss3/index.m3u8
-#EXTINF:0 tvg-name="WDR" tvg-language="German" tvg-country="DE" tvg-id="WDR" tvg-logo="https://i.imgur.com/IUQkahm.png" group-title="Entertainment",WDR HD
-https://wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/master.m3u8b=400-4000
-#EXTINF:0,Discovery Channel **
-https://192.95.33.51/live/Ad5XukG0AhAVzewuL_V3ng/1488132747/075d66993151c178df1ed9840202d983.m3u8
-#EXTINF:0,Sky Sports F1
-https://mcdn-play-358.5centscdn.net/skysportsf1hdextv/5c6d78cffa59e129f040fcec2d788532.sdp/index.m3u8
-#EXTINF:0,Sky Sports Mix
-https://mcdn-play-358.5centscdn.net/skysportsmixextv/5c6d78cffa59e129f040fcec2d788532.sdp/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png" group-title="Entertainment",ANIMAX
 https://video7.stream.mx:1935/raxatv/raxatv/chunklist_w884577146.m3u8
